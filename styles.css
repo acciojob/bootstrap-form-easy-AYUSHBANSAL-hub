@@ -1,8 +1,4 @@
-
-/* Your CSS Code here. */
-
-
-/* Your CSS Code here. */
+/* 
 .test{
     width:1000px;
     height:490px;
@@ -16,4 +12,43 @@
 }
 .y{
     margin-top:10px;
+} */ 
+
+/* Your CSS Code here. */
+
+h2{
+	font-style:italic;
+}
+.container{
+	
+}
+#first-name-input{
+	margin:10px;
+}
+#last-name-input{
+	margin:10px;
+}
+#email-input{
+	margin:10px;
+}
+#college-input{
+	margin:10px;
+	width:300px;
+}
+
+#roll-no-input{
+	margin:10px;
+}
+.box{
+	display:flex;
+}
+button{
+	background-color:blue;
+	color:white;
+	padding:7px;
+	border:none;
+	border-radius:3px;
+}
+.error-message{
+	color:red;
 }

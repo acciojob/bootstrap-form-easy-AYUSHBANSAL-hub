@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -101,4 +101,63 @@
       </form>
     </div>
   </body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2 style="text-align: center;">Internship Form</h2>
+    <div class="container">
+        <form id="internship-form">
+            <label for="first-name-input">First Name:</label>
+            <input type="text" id="first-name-input" required>
+            <span id="first-name-error" class="error-message"></span>
+
+            <label for="last-name-input">Last Name:</label>
+            <input type="text" id="last-name-input" required>
+            <span id="last-name-error" class="error-message"></span>
+
+            <label for="email-input">Email Address:</label>
+            <input type="email" id="email-input" required>
+            <span id="email-error" class="error-message"></span>
+
+            <label for="college-input">College:</label>
+            <input type="text" id="college-input" required>
+            <span id="college-error" class="error-message"></span>
+
+            <label for="graduation-year-input">Graduation Year:</label>
+            <select id="graduation-year-input" required>
+                <option>Choose..</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </select>
+            <span id="graduation-error" class="error-message"></span>
+
+            <label for="roll-no-input">Roll No.</label>
+            <input type="text" id="roll-no-input" required>
+            <span id="roll-no-error" class="error-message"></span>
+
+            <label>
+                <input type="checkbox" id="conditions-checkbox" required>
+                Agree to terms and Conditions
+            </label>
+            <span id="checkbox-error" class="error-message"></span>
+
+            <button type="submit" id="submit-button">Submit form</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
 </html>
